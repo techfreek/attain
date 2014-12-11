@@ -27,7 +27,7 @@ var config = require(attain('config'));
 var somename = require(attain('somename'));
 ```
 
-How I am intending to do this:
+## How I am intending to do this:
 1. Maintain an index file where your files are registered and their relative paths
 2. When calling attain(), it will traverse the file tree until it finds the index file, looks up the relative path, and returns that so require can use that path.
 3. I would like to also find a way to use this with gulpjs so during build steps it can update any changed relative paths
