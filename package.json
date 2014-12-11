@@ -1,0 +1,24 @@
+{
+  "name": "attain",
+  "version": "0.0.0",
+  "description": "A filepath manager for your code to make requires easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techfreek/attain.git"
+  },
+  "author": "Alex Bahm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techfreek/attain/issues"
+  },
+  "devDependencies": {
+    "expect.js": "~0.3.1"
+  },
+  "dependencies": {
+    "fs-find-root": "~1.0.2"
+  }
+}
