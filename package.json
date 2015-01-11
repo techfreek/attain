@@ -19,6 +19,9 @@
     "expect.js": "~0.3.1"
   },
   "dependencies": {
-    "fs-find-root": "~1.0.2"
+    "fs-find-root": "~1.0.2",
+    "jsonfile": "~2.0.0",
+    "recursive-search": "~1.0.1",
+    "glob": "~4.3.2"
   }
 }
